@@ -25,6 +25,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: var(--btn-color);
+  background: var(--btn-bg-color);
 }
 
 .btn-sm {
@@ -49,7 +50,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 1.5px;
+    inset: 1px;
     background: var(--bg-color);
   }
 
